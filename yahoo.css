@@ -1,0 +1,144 @@
+/*----------------------------------------*/
+
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 55px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+}
+
+.yahoo {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 60px; width: 60px;
+}
+
+#lori {
+size: 20px 20px;
+position: absolute;
+top: 15px; right: 15px;
+
+}
+
+#hilori {
+	position: absolute;
+	top: 10px;
+	right: 35px;
+	size: 20px;
+	width: 100px;
+	font-size: 16px;
+	color: black;
+}
+
+#overlay {
+	position: absolute;
+	color: black;	
+	right: 200px;
+	text-align: 30px;
+	font-size: 12px;
+}
+
+
+
+/*----------------------------------------*/
+/*-----------------CURRENT CONDITONS------*/
+/*----------------------------------------*/
+.local {
+	display: flex;
+/*	flex-wrap: nowrap;*/
+	flex-direction: right;
+	color: white;
+	font-size: 18px;
+	background-color: none;	
+	/*position: right;*/
+	padding-right: 0px;
+	padding-left: 800px;
+	/*padding-bottom: 5px;*/
+	padding-top: 35px;
+	border-bottom: 1px solid grey;
+	color: white
+
+}
+
+.local > h6 {
+	border-right: 1px solid white;
+	padding-left: 1em;
+	padding-right: 1em;
+
+}
+
+.local > h6:last-of-type {
+	border: 0;
+
+}
+
+
+/*#date {
+	width: 175px;
+	border-right: solid white 1px;
+}
+
+#sunny {
+	width: 80px;
+	text-align: center;
+	border-right: solid white 1px;
+}
+
+#temp {
+	width: 40px;
+	text-align: center;
+	border-right: solid white 1px;	
+}
+
+#loc {
+	width: 140px;
+	text-align: center;
+}
+*/
+
+/*----------------------------------------*/
+/*--------MAIN PICTURE/MESSAGE -----------*/
+/*----------------------------------------*/
+
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-image: url("birds.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.birds { 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+
+.vibe {
+	color: white;
+	position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60px;
+    font-size: 60px;
+}
+
+.cred {
+	color: white;
+ 	position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+ 
